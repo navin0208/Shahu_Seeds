@@ -63,13 +63,13 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-foreground mb-1">{tr('Phone', 'फोन')}</h3>
-                    <p className="text-muted-foreground">+1 (555) 123-4567</p>
+                    <p className="text-muted-foreground">+91 77983 30904</p>
                     <p className="text-muted-foreground">{tr('Mon - Fri, 9AM - 6PM', 'सोम - शुक्र, सकाळी 9 ते संध्याकाळी 6')}</p>
                   </div>
                 </div>
 
                 {/* Email */}
-                <div className="flex gap-4">
+                {/* <div className="flex gap-4">
                   <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
                     <Mail className="w-6 h-6 text-primary" />
                   </div>
@@ -78,10 +78,10 @@ export default function Contact() {
                     <p className="text-muted-foreground">info@shahuseed.com</p>
                     <p className="text-muted-foreground">support@shahuseed.com</p>
                   </div>
-                </div>
+                </div> */}
 
                 {/* Address */}
-                <div className="flex gap-4">
+                {/* <div className="flex gap-4">
                   <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
                     <MapPin className="w-6 h-6 text-primary" />
                   </div>
@@ -90,7 +90,7 @@ export default function Contact() {
                     <p className="text-muted-foreground">{tr('123 Agricultural Plaza', '123 अॅग्रीकल्चरल प्लाझा')}</p>
                     <p className="text-muted-foreground">{tr('Farm Valley, FV 12345', 'फार्म व्हॅली, FV 12345')}</p>
                   </div>
-                </div>
+                </div> */}
               </div>
 
               {/* Quick Response Info */}
@@ -160,7 +160,7 @@ export default function Contact() {
                           value={formData.phone}
                           onChange={handleChange}
                           className="w-full px-4 py-3 rounded-lg border border-border bg-background focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all"
-                          placeholder={tr('+1 (555) 000-0000', '+1 (555) 000-0000')}
+                          placeholder={tr('+91 XXXXX XXXXX', '+1 (555) 000-0000')}
                         />
                       </div>
                       <div>

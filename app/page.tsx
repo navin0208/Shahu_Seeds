@@ -802,10 +802,10 @@ const prevReel = () => setActiveReel((p) => (p - 1 + reels.length) % reels.lengt
                       <Star key={i} className="w-5 h-5 fill-secondary text-secondary" />
                     ))}
                   </div>
-                  <p className="text-lg mb-6 leading-relaxed opacity-90">{testimonial.content}</p>
+                  <p className="text-lg text-primary mb-6 leading-relaxed opacity-90">{testimonial.content}</p>
                   <div className="border-t border-primary-foreground/20 pt-4">
-                    <p className="font-bold text-lg">{testimonial.name}</p>
-                    <p className="text-sm opacity-75">{testimonial.region}</p>
+                    <p className="font-bold text-primary text-lg">{testimonial.name}</p>
+                    <p className="text-sm text-primary opacity-75">{testimonial.region}</p>
                   </div>
                 </div>
               ))}
