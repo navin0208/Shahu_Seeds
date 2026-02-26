@@ -485,7 +485,7 @@ const prevReel = () => setActiveReel((p) => (p - 1 + reels.length) % reels.lengt
           {/* Trust stats */}
           <div className="mt-8 grid grid-cols-2 md:grid-cols-4 gap-3 max-w-4xl mx-auto">
             {[
-              ["98%", tr("Avg. Germination", "सरासरी उगवण")],
+              ["95%", tr("Avg. Germination", "सरासरी उगवण")],
               ["12", tr("Tested Zones", "चाचणी पट्टे")],
               ["100%", tr("Traceable Batches", "मागोवा घेता येणाऱ्या बॅच")],
               ["24/7", tr("Storage Monitoring", "साठवण निरीक्षण")],
