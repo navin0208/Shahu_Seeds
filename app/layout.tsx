@@ -5,6 +5,7 @@ import './globals.css'
 import Navbar from '@/components/navbar'
 import Footer from '@/components/footer'
 import { LanguageProvider } from '@/context/language-context'
+import WhatsAppFloat from '@/components/whatsapp-float'
 
 
 const geist = Geist({ subsets: ['latin'] })
@@ -27,6 +28,7 @@ export default function RootLayout({
           <Navbar />
           <main className="pt-16">{children}</main>
           <Footer />
+          <WhatsAppFloat />
         </LanguageProvider>
       </body>
     </html>

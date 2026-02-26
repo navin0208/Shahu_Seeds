@@ -17,7 +17,7 @@ export default function About() {
           <div className="text-center space-y-6">
             <span className="inline-flex items-center gap-2 rounded-full border border-primary/30 bg-primary/10 px-4 py-2 text-sm font-semibold text-primary">
               <Sparkles className="h-4 w-4" />
-              {tr('Since 2014', '2014 पासून')}
+              {tr('Since 2020', '2020 पासून')}
             </span>
             <h1 className="text-5xl md:text-6xl font-bold text-foreground text-balance">
               {tr('About SHAHU SEEDS', 'SHAHU SEEDS विषयी')}
@@ -39,7 +39,7 @@ export default function About() {
             <div>
               <div className="bg-gradient-to-br from-primary/20 via-secondary/10 to-accent/10 rounded-2xl border border-primary/20 h-96 flex items-center justify-center shadow-lg">
                 <div className="text-center space-y-4">
-                  <div className="text-6xl font-bold text-primary">10+</div>
+                  <div className="text-6xl font-bold text-primary">2+</div>
                   <p className="text-xl font-semibold text-foreground">{tr('Years of Excellence', 'उत्कृष्टतेची वर्षे')}</p>
                   <p className="text-muted-foreground">{tr('Serving the agricultural community', 'कृषी समुदायाच्या सेवेत')}</p>
                 </div>
@@ -55,8 +55,8 @@ export default function About() {
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
                 {tr(
-                  'What started as a small operation has grown into a network serving 50,000+ farmers across 100+ distribution areas.',
-                  'लहान उपक्रमापासून सुरुवात होऊन आज 100+ वितरण क्षेत्रांतील 50,000+ शेतकऱ्यांना सेवा देणारे जाळे आम्ही उभे केले आहे.',
+                  'What started as a small operation has grown into a network serving 10,000+ farmers across 20+ distribution areas.',
+                  'लहान उपक्रमापासून सुरुवात होऊन आज 20+ वितरण क्षेत्रांतील 10,000+ शेतकऱ्यांना सेवा देणारे जाळे आम्ही उभे केले आहे.',
                 )}
               </p>
               <div className="space-y-3">

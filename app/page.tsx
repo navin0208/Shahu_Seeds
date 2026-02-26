@@ -140,9 +140,9 @@ const prevReel = () => setActiveReel((p) => (p - 1 + reels.length) % reels.lengt
               {/* Stats Row */}
               <div className="grid grid-cols-3 gap-3 md:gap-6 pt-6 md:pt-8 animate-fade-in animation-delay-500">
                 {[
-                  { value: '98%', label: tr('Germination', 'उगवण') },
-                  { value: '50K+', label: tr('Farmers', 'शेतकरी') },
-                  { value: '10+', label: tr('Years', 'वर्षे') },
+                  { value: '95%', label: tr('Germination', 'उगवण') },
+                  { value: '10K+', label: tr('Farmers', 'शेतकरी') },
+                  { value: '2+', label: tr('Years', 'वर्षे') },
                 ].map((stat, i) => (
                   <div key={i} className="text-center bg-white/10 backdrop-blur-sm p-3 md:p-4 rounded-lg border border-white/20">
                     <div className="text-2xl md:text-3xl font-black text-secondary">{stat.value}</div>
@@ -374,17 +374,17 @@ const prevReel = () => setActiveReel((p) => (p - 1 + reels.length) % reels.lengt
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               {
-                value: '10+',
+                value: '2+',
                 label: tr('Years of Excellence', 'उत्कृष्टतेची वर्षे'),
                 desc: tr('Continuous innovation in seed technology', 'बियाणे तंत्रज्ञानात सातत्यपूर्ण नवकल्पना'),
               },
               {
-                value: '50K+',
+                value: '10K+',
                 label: tr('Farmers Served', 'सेवा घेतलेले शेतकरी'),
                 desc: tr('Growing network of trusted partners', 'विश्वासू भागीदारांचे वाढते जाळे'),
               },
               {
-                value: '100+',
+                value: '20+',
                 label: tr('Distribution Areas', 'वितरण क्षेत्रे'),
                 desc: tr('Nationwide reach and support', 'देशव्यापी पोहोच आणि सहाय्य'),
               },
@@ -1115,9 +1115,9 @@ import {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             {[
               { label: tr('Success Rate', 'यश दर'), value: '98%', icon: CheckCircle },
-              { label: tr('Farmers Satisfied', 'समाधानी शेतकरी'), value: '50K+', icon: Users },
-              { label: tr('Regions Covered', 'समाविष्ट प्रदेश'), value: '100+', icon: Leaf },
-              { label: tr('Years Active', 'कार्यरत वर्षे'), value: '10+', icon: Award },
+              { label: tr('Farmers Satisfied', 'समाधानी शेतकरी'), value: '10K+', icon: Users },
+              { label: tr('Regions Covered', 'समाविष्ट प्रदेश'), value: '20+', icon: Leaf },
+              { label: tr('Years Active', 'कार्यरत वर्षे'), value: '2+', icon: Award },
             ].map((stat, index) => (
               <div key={index} className="text-center group">
                 <div className="inline-block mb-4 p-4 rounded-lg bg-primary/10 group-hover:bg-primary/20 transition-all">

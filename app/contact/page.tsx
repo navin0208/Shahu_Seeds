@@ -236,7 +236,7 @@ export default function Contact() {
               },
               {
                 q: tr('What regions do you service?', 'तुमची सेवा कोणत्या भागांमध्ये उपलब्ध आहे?'),
-                a: tr('We distribute across 100+ areas nationwide with robust logistics support for reliable delivery.', 'आम्ही देशभरातील 100+ भागांमध्ये मजबूत लॉजिस्टिक सहाय्यासह वितरण करतो.'),
+                a: tr('We distribute across 20+ areas nationwide with robust logistics support for reliable delivery.', 'आम्ही देशभरातील 20+ भागांमध्ये मजबूत लॉजिस्टिक सहाय्यासह वितरण करतो.'),
               },
               {
                 q: tr('Do you provide technical support?', 'तुम्ही तांत्रिक सहाय्य देता का?'),
