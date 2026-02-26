@@ -76,7 +76,8 @@ export default function Navbar() {
           {/* Brand */}
           <Link href="/" className="group flex items-center gap-3">
             <div className=" h-9 rounded-xl  text-primary-foreground flex items-center justify-center font-bold text-sm shadow-sm transition-transform duration-300 group-hover:scale-105">
-             <img className=' h-28' src="/shiv.png" alt="" />
+             <img className=' h-28' src="/shiv.png" alt="test" />
+             
             </div>
             <div className="hidden sm:block">
               {/* <p className="text-sm font-semibold tracking-[0.18em] text-foreground">
