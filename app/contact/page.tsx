@@ -69,16 +69,16 @@ export default function Contact() {
                 </div>
 
                 {/* Email */}
-                {/* <div className="flex gap-4">
+                <div className="flex gap-4">
                   <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
                     <Mail className="w-6 h-6 text-primary" />
                   </div>
                   <div>
                     <h3 className="font-semibold text-foreground mb-1">{tr('Email', 'ईमेल')}</h3>
-                    <p className="text-muted-foreground">info@shahuseed.com</p>
-                    <p className="text-muted-foreground">support@shahuseed.com</p>
+                    <p className="text-muted-foreground">shivshrushtigrp7557@gmail.com</p>
+                    {/* <p className="text-muted-foreground">support@shahuseed.com</p> */}
                   </div>
-                </div> */}
+                </div>
 
                 {/* Address */}
                 {/* <div className="flex gap-4">

@@ -61,11 +61,11 @@ const prevReel = () => setActiveReel((p) => (p - 1 + reels.length) % reels.lengt
     image: "/product.png",
   },
   {
-    variety: tr("Shahu Golden", "शाहू गोल्डन"),
+    variety: tr("Shahu Bhima Shakti", "शाहू गोल्डन"),
     code: "SG-02",
     yield: tr("42-47 tons/ha", "42-47 टन/हे"),
     badge: tr("New", "नवीन"),
-    image: "/product-2.png",
+    image: "/shiv2.png",
   },
 ];
  const whyItems = [
@@ -158,7 +158,7 @@ const prevReel = () => setActiveReel((p) => (p - 1 + reels.length) % reels.lengt
                 {/* Main Image Card */}
                 <div className="absolute inset-0 rounded-3xl overflow-hidden shadow-2xl border-4 border-white/20 backdrop-blur-sm animate-float">
                   <img 
-                    src="/onion.png" 
+                    src="/ret.jpg" 
                     alt="Premium onion seeds"
                     className="w-full h-full object-cover"
                   />
